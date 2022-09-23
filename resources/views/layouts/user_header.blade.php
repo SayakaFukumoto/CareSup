@@ -12,7 +12,7 @@
         </ul>
       </div>
       <div class="login">
-        <p>{{ Session::get('user') }}さん『権限＝{{ Session::get('role_id') }}』 <a href="{{url('/logout')}}">ログアウト</a></p>
+        <p>{{ Session::get('user') }}さん<a href="{{url('/logout')}}">ログアウト</a></p>
       </div>
     </div>
   </header>
