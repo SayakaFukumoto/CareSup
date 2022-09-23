@@ -1,0 +1,154 @@
+/*ここからindex=======================*/
+.red{
+  color: red;
+  font-size: 0.8em;
+}
+
+.edit{
+  margin: auto;
+}
+
+.edit h3{
+  margin-top: 20px;
+}
+
+
+
+
+.container{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+}
+
+.icon-box{
+  text-align: right;
+}
+.index{
+  width: 180px;
+  height:260px;
+  margin: 0 auto 100px;
+  padding: 20px 30px 30px;
+}
+.customer p{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.image-url{
+  width: 120px;
+  height:120px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.no-image-url{
+  color: white;
+  text-align: center;
+  background-color: #ccc;
+}
+
+
+.customer .state{
+  font-size: 0.8em;
+  padding-top: 5px;
+  color: #ccc;
+}
+
+.small-tape{
+  left: 50px;
+  padding: 0.25em 1.5em;
+  font-size: 1em;
+  background-color: rgba(230,203,124,.2);
+}
+
+.width1000{
+  width:1000px;
+  padding:100px;
+}
+
+.customer-img{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.customer-detail{
+  display:flex;
+}
+
+.detail{
+  width: 400px;
+}
+
+.detail h4{
+  font-weight: bold;
+}
+
+
+h5{
+  font-weight: bold;
+  font-size: 19px;
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #7db4e6;/*左線*/
+}
+
+.detail p{
+  padding-left: 30px;
+}
+
+.line {
+  position: relative;
+  margin-bottom: 0.2rem;
+  padding: 0.5rem;
+  border-bottom: 5px solid;
+  border-color: #ccc;
+}
+
+.line:before {
+  position: absolute;
+  bottom: -0.6rem;
+  left: 0rem;
+  right: 0rem;
+  border-bottom: 1px solid;
+  content: '';
+}
+
+.box {
+  position: relative;
+  margin: 2em 0;
+  padding: 1em 1.2em;
+  border: solid 2px #ccc;
+  border-radius: 8px;
+  min-height: 150px;
+}
+.box .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 19px;
+  background: #FFF;
+  font-weight: bold;
+}
+.box p {
+  margin: 0;
+  padding: 0;
+}
+
+.PDF{
+  color: #fff;
+  background-color: #f4d58d;
+  border-radius: 100vh;
+  padding:10px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.PDF-cover{
+  text-align: right;
+}

@@ -1,0 +1,254 @@
+.regist input,.customer-edit input,.insert-submit-button{
+  width: 500px; /*親要素いっぱい広げる*/
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 3px; /*ボックス角の丸み*/
+  border: 2px solid #ddd; /*枠線*/
+  box-shadow: none;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.insert-submit-button{
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 3px; /*ボックス角の丸み*/
+  border: 2px solid #ddd; /*枠線*/
+  box-shadow: none;
+  margin: 5px 0;
+  box-sizing: border-box;
+  background-color: #f4d58d;
+}
+
+select{
+  width: 400px; /*親要素いっぱい広げる*/
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 3px; /*ボックス角の丸み*/
+  border: 2px solid #ddd; /*枠線*/
+  box-shadow: none;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+
+
+.red{
+  color:red;
+}
+
+.center{
+  text-align: center;
+}
+
+.center p{
+  text-align: center;
+}
+
+.center input{
+margin: auto;
+}
+
+ /* note風CSS*/
+ .note {
+   background-color: #fff;
+   background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #fff 50%, #fff 100%), linear-gradient(180deg, #ccc 1px, transparent 1px); /* 点線の色と太さ */
+   background-size: 8px 100%, 100% 2.5em; /* 点線のサイズ */
+   line-height: 2.5em; /* 文字の高さ */
+   padding-bottom: 1px; /* 最終行の下にも罫線を引く */
+  }
+
+  .under {
+    background: linear-gradient(transparent 70%, #ccc 70%);
+  }
+
+ .tape{
+   position: absolute;
+   top: -1.5em;
+   left: 410px;
+   background-color: rgba(230,203,124,.4);
+   border-left:2px dotted rgba(0,0,0,.1);
+   border-right:2px dotted rgba(0,0,0,.1);
+   box-shadow:0 0 5px rgba(0,0,0,0.2);
+   padding: 0.25em 2em;
+   font-size: 1.5em;
+   font-weight: bold;
+   text-align: center;
+   margin: 10px 0;
+ }
+.btn-image{
+  height: 130px;
+  margin-left: 50px;
+}
+
+ .icon{
+   height: 20px;
+   width: 20px;
+ }
+
+.inner-padding{
+  padding:10px;
+}
+
+.right{
+  display: flex;
+}
+
+.more-link{
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.more-link a{
+  color: black;
+}
+
+.content{
+  margin: 30px 0 60px;
+}
+
+.content-box{
+  position: relative;
+  background-color: white;
+  border-radius: 5px 0px;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+  margin: 0 auto 100px;
+  padding: 60px 30px 40px;
+}
+
+.margin-bot{
+  margin-bottom: 100px;
+}
+
+.news{
+  display: flex;
+  justify-content: space-between;
+}
+
+.news ul{
+  display: flex;
+}
+
+.pageing{
+  margin: auto;
+  text-align: center;
+}
+
+.pageing a{
+	padding:0 10px;
+}
+
+.button-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin:50px 0 100px;
+}
+
+
+/*ユーザーボタンデザイン*/
+.btn a {
+  margin: 0 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 450px;
+	height: 200px;
+	color: #333;
+	font-size: 2em;
+	text-decoration: none;
+	transition: 0.3s;
+  background-color: #cab64a;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.btn a:hover {
+	color: #f2f2f2;
+}
+
+.user-btn a::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: rotate(45deg) translateY(-50%);
+	width: 10px;
+	height: 10px;
+	border-width: 2px 2px 0 0;
+	border-style: solid;
+	border-color: #333;
+}
+
+
+.user-btn a:hover::after {
+	border-color: #f2f2f2 #f2f2f2 transparent transparent;
+}
+
+.admin-btn a{
+  background-color: #ccc;
+  height: 100px;
+}
+
+/*連絡事項*/
+.news-list{
+  list-style: none outside;
+  margin: 0;
+  padding: 0;
+}
+
+.news-deta{
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 0.7em;
+  min-width: 140px;
+  padding: 0 30px 0 0;
+}
+.news-list .item .category{
+  font-size: 0.8em;
+  min-width: 120px;
+  padding: 0;
+}
+.news-list .item .category span{
+  text-align: center;
+  display: inline-block;
+  padding: 5px 20px;
+  line-height: 1;
+}
+.news-list .item .title{
+  margin: 0;
+  width: 100%;
+}
+
+/*こまごましたページ*/
+.input-width{
+  margin: 30px auto 0;
+  width: 600px;
+}
+
+.news-title{
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-box{
+  margin: auto;
+  width: 600px;
+}
+
+.input-box input,.input textarea{
+  margin: 0 0 30px;
+}
+
+.submit-btn{
+  text-align: left;
+}
+
+.user-register .title{
+  font-size: 1.1em;
+  font-weight: bold;
+}

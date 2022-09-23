@@ -1,0 +1,84 @@
+.red{
+  color: red;
+  font-size: 0.8em;
+}
+
+.login_form,.update_link {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.content-box{
+  width: 600px;
+  background-color: white;
+  /*border: 1px solid;*/
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+  margin:0 auto 100px;
+  padding: 60px 20px 40px;
+}
+
+.login_form input{
+  width: 100%; /*親要素いっぱい広げる*/
+  padding: 15px 20px;
+	height: 30px;
+  font-size: 16px;
+  border-radius: 3px; /*ボックス角の丸み*/
+  border: 2px solid #ddd; /*枠線*/
+  box-shadow: none;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.update_link a,.to_login_link a{
+  color:black;
+  font-size: 0.9em;
+}
+
+.to_login_link a{
+  text-decoration: underline;
+}
+
+.update_link span{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.login_form img{
+  height: 100px;
+  margin: auto;
+}
+
+.login_form h1{
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.login_form p{
+  font-weight: bold;
+  text-align: center;
+  margin:0 5px;
+}
+
+.login_form button,.submit-btn{
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  border-color: #FD7E00;
+  width: 100%;
+  height: 50px;
+  background-color: #CC572C;
+}
+
+.input_box{
+  margin: 2% auto;
+}
+
+.margin_top{
+  margin:100px auto ;
+  padding-bottom: 50px;
+}
