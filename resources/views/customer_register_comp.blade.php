@@ -13,7 +13,7 @@
   </div>
 </div>
 @php
-if (session('user')== 3||4) {
+if (Session::get('role_id')== 3 ||Session::get('role_id')== 4) {
   header("Location:top");
   exit;
 }
