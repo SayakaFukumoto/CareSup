@@ -14,7 +14,9 @@ CareSupは介護職等の記録業務の手伝いをします。
  
 --laravelのvenderファイルとご自身の環境に合った.envファイルをご用意していただき、プロジェクト直下に配置。
 
---コンソールにてプロジェクト下で『php artisan migrate』,『php artisan db:seed 』,『php artisan storage:link』を実行していただきますと、データベースの作成・テストデータの挿入、画像入力が可能になるかと思います。
+--composer.lockを元にdompdf等の環境設定。
+
+--コンソールにて『php artisan migrate』,『php artisan db:seed 』,『php artisan storage:link』を実行していただきますと、データベースの作成・テストデータの挿入、画像入力が可能になるかと思います。(使用DB名:care_sup)
 
 
 #### テストアカウント
