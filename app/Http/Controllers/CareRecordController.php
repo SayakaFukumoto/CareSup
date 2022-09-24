@@ -115,7 +115,7 @@ class CareRecordController extends Controller
       'type' => 'required|numeric',
     ]);
 
-    if($request['type']== (2||3) && $request['customer_id'] == 0){
+    if($request['type']== 2 ||$request['type']== 3 && $request['customer_id'] == 0){
       $detail=$request['detail'];
       $customers= $this -> Customer ->getAllCustomers();
       $typeError=1;
