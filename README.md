@@ -10,13 +10,15 @@ CareSupは介護職等の記録業務の手伝いをします。
  
 ### 使い方 🐚
 
---ダウンロード・解凍 
+--composerをインストール。
+
+--```composer install```を実行すると、venderフォルダ等必要なものがインストールされます。
  
---laravelのvenderファイルとご自身の環境に合った.envファイルをご用意していただき、プロジェクト直下に配置。
+--プロジェクト直下の.env.sampleファイルをご自身の環境に合わせて編集し、ファイル名を.envに変更。
 
---composer.lockを元にdompdf等の環境設定。vendor\dompdf\dompdf\src\FrameReflower\Text.phpで$_wordbreak_pattern= '//u'に変更。
+--dompdfの環境設定。vendor\dompdf\dompdf\src\FrameReflower\Text.phpで$_wordbreak_pattern= '//u'に変更。
 
---コンソールにて『php artisan migrate』,『php artisan db:seed 』,『php artisan storage:link』を実行していただきますと、データベースの作成・テストデータの挿入、画像入力が可能になるかと思います。(使用DB名:care_sup)
+--コンソールにて```php artisan migrate```,```php artisan db:seed ```,```php artisan storage:link```を実行していただきますと、データベースの作成・テストデータの挿入、画像入力が可能になるかと思います。(使用DB名:care_sup)
 
 
 #### テストアカウント
