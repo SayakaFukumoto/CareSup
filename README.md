@@ -14,7 +14,8 @@ CareSupは介護職等の記録業務の手伝いをします。
 
 --```composer install```を実行すると、venderフォルダ等必要なものがインストールされます。
  
---プロジェクト直下の.env.sampleファイルをご自身の環境に合わせて編集し、ファイル名を.envに変更。
+--プロジェクト直下の.env.sampleファイルをご自身の環境に合わせて編集し、ファイル名を.envに変更。<br>
+　 config/database.phpのDB情報もご自身の環境のものに更新。
 
 --dompdfの環境設定。vendor\dompdf\dompdf\src\FrameReflower\Text.phpで$_wordbreak_pattern= '//u'に変更。
 
