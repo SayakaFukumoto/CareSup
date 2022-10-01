@@ -76,7 +76,9 @@ class CareRecord extends Model
     -> from ('care_records')
     ->leftjoin ('users',function($join){$join ->on('care_records.user_id','=','users.id');})
     ->leftjoin ('customers',function($join){$join ->on('care_records.customer_id','=','customers.id');})
-    -> where ('customers.id','=',$id)->paginate( $perPage = 20, $columns = ['*'], $pageName = 'page');
+    -> where ('customers.id','=',$id)
+    ->orderBy('care_records.created_at','DESC')
+    ->paginate( $perPage = 20, $columns = ['*'], $pageName = 'page');
     return $customerRecords;
   }
 
